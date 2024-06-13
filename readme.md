@@ -8,13 +8,13 @@ Python code for doing error propagation pretty quick.
 
 # Quick start
 
-The following is an example which calculates the gravitational acceleration from pendulum period and length measurements.
+The following is an example which calculates the gravitational acceleration $g$ from pendulum period $T$ and length $l$ measurements using the following relationship:
 
 $$
 g = \frac{4\pi^2 l}{T^2}
 $$
 
-Error propagation is done automatically. 
+Error propagation for $g$ is done automatically. 
 
 ```python
 >>> from errorprop import *
@@ -30,9 +30,10 @@ Error propagation is done automatically.
 9.208 ± 2.002 ± 0.656
 ```
 
-See tutorial.ipynb for a thorough walkthrough.
+See [tutorial.ipynb](https://github.com/mikenoethiger/errorprop/blob/master/tutorial.ipynb) for a thorough walkthrough.
+You can download the jupyter notebook to play around with it on your computer.
 
-# Ho to use
+# How to use
 
 1. Download the `errorprop.py` file and put it into the same directory as your jupyter notebook.
 2. Add the following import to your notebook:
@@ -41,3 +42,4 @@ from errorprop import *
 ```
 3. Start doing error propagation... ;-)
 
+Feel free to open an [issue](https://github.com/mikenoethiger/errorprop/issues) on this repository if something's not working properly.
