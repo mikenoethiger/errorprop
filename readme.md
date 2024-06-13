@@ -31,7 +31,7 @@ Error propagation for $g$ is done automatically.
 ```
 
 See [tutorial.ipynb](https://github.com/mikenoethiger/errorprop/blob/master/tutorial.ipynb) for a thorough walkthrough.
-You can download the jupyter notebook to play around with it on your computer.
+You can [download](https://github.com/mikenoethiger/errorprop/archive/refs/heads/master.zip) this repository to play around with the jupyter notebook on your computer.
 
 # How to use
 
